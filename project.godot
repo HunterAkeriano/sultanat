@@ -1,0 +1,36 @@
+; Engine configuration file.
+; Sunset of the Crescent — mobile idle/crisis strategy (MVP slice per ТЗ v1.1)
+; Open this folder in Godot 4.3+ ("Import" the project.godot), then press Play.
+
+config_version=5
+
+[application]
+
+config/name="Sunset of the Crescent"
+config/description="Мобильная стратегия-симулятор управления угасающей империей. Idle-слой по ТЗ v1.1 (§21.0)."
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.3", "Mobile")
+config/icon="res://icon.svg"
+
+[autoload]
+
+Palette="*res://scripts/Palette.gd"
+Loc="*res://scripts/Loc.gd"
+GameData="*res://scripts/GameData.gd"
+GameState="*res://scripts/GameState.gd"
+Music="*res://scripts/Music.gd"
+
+[display]
+
+window/size/viewport_width=430
+window/size/viewport_height=932
+window/stretch/mode="canvas_items"
+window/stretch/aspect="keep_width"
+window/stretch/scale_mode="fractional"
+window/handheld/orientation=1
+window/size/resizable=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true

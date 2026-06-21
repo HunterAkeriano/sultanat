@@ -1,0 +1,6 @@
+res://scripts/ui/ProvincesView.gd
+res://scripts/GameData.gd
+res://scripts/Main.gd
+res://scripts/GameState.gd
+res://scripts/Loc.gd
+res://scripts/Palette.gd
