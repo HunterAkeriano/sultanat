@@ -1,0 +1,14 @@
+# Godot 4 — кэш импорта (генерируется автоматически)
+.godot/
+# Экспорты/сборки
+/builds/
+/exports/
+export_presets.cfg
+# OS-мусор
+.DS_Store
+Thumbs.db
+*~
+android/build/build/  
+*.apk  
+android/build/.gradle/  
+.godot/ 
